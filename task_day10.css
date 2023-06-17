@@ -5,7 +5,7 @@ body{
 .card{
     width: 30% ;
     display:block;
-    box-shadow: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.614);
     text-align: center;
     justify-content: center;
     background-color: aliceblue;
@@ -36,10 +36,17 @@ header{
 .audio{
     justify-content: center;
     margin-left: 40%;
+    margin-bottom: 15px;
 }
 
 a{
     font-size: 20px;
     color: black;
     margin-bottom: 5%;
+}
+
+Footer{
+    background-color: aliceblue;
+    padding: 3px;
+
 }
